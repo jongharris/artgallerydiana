@@ -1,0 +1,101 @@
+
+
+.navbar {
+    height: 75px;
+}
+
+.navbar li {
+    font-family: 'Khula';
+    font-weight: 300;
+    font-size: 18px;
+    margin-right: 30px
+}
+
+.box {
+    height: 20px;
+    width: 100%;
+    background-color: rgb(188, 238, 232);
+    margin-bottom: 5%;
+}
+
+.navbar-brand-custom {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: 'Khula';
+    font-weight: 300;
+}
+.carousel-item {
+    height: 550px;
+}
+
+.showcase-item {
+    height: 200px;
+}
+
+.img-main {
+    position: relative;
+}
+
+.img-main:hover .overlay{
+    opacity: 100;
+}
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(46, 46, 46, 0.7);
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.ctr {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.carousel-image-1 {
+    background: url("img/Centrifuge.jpg");
+    background-size: cover;
+}
+
+.carousel-image-2 {
+    background: url("img/Centrifuge.jpg");
+    background-size: cover;
+}
+
+.carousel-image-3 {
+    background: url("img/Centrifuge.jpg");
+    background-size: cover;
+}
+
+.logo-box {
+    height: 100px;
+    width: 100px;
+}
+
+.logo-image {
+    background: url("img/logo_size.jpg");
+    background-size: cover;
+}
+.painting {
+    border: none;
+}
+.card-footer {
+    background: white;
+}
+
+.welcome-text {
+    background-color: rgba(255, 255, 255, 0.55);
+    font-family: 'Franklin Gothic Medium';
+}
+
+.header-color {
+    color: #265A6F
+}
+
+.display-custom {
+    font-family: 'Khula';
+     olor: #757575;
+}
